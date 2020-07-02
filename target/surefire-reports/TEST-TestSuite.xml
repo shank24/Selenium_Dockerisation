@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.896" tests="9" errors="0" skipped="7" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.242-b20"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/shanky/IdeaProjects/com.selenium.docker"/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/shanky/IdeaProjects/com.selenium.docker"/>
+    <property name="java.runtime.version" value="1.8.0_242-b20"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/snap/intellij-idea-community/232/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/snap/intellij-idea-community/232/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/snap/intellij-idea-community/232/plugins/maven/lib/maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.15.0-106-generic"/>
+    <property name="user.home" value="/home/shanky"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="shanky"/>
+    <property name="java.class.path" value="/snap/intellij-idea-community/232/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/snap/intellij-idea-community/232/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/snap/intellij-idea-community/232/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2020.1.2 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="idea.version2020.1.2" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_242"/>
+    <property name="java.ext.dirs" value="/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre/lib/resources.jar:/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre/lib/rt.jar:/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre/lib/sunrsasign.jar:/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre/lib/jsse.jar:/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre/lib/jce.jar:/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre/lib/charsets.jar:/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre/lib/jfr.jar:/home/shanky/.sdkman/candidates/java/8.0.242-zulu/jre/classes"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.home" value="/snap/intellij-idea-community/232/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="setUp" classname="com.searchmodule.tests.SearchTest" time="0.786">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;&#10;System info: host: &apos;shanky&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-106-generic&apos;, java.version: &apos;1.8.0_242&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'shanky', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-106-generic', java.version: '1.8.0_242'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:4444
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+</failure>
+  </testcase>
+  <testcase name="setUpParameters" classname="com.searchmodule.tests.SearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="registrationPage" classname="com.newtours.tests.BookFlightTest" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;&#10;System info: host: &apos;shanky&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-106-generic&apos;, java.version: &apos;1.8.0_242&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="search" classname="com.searchmodule.tests.SearchTest" time="0.8">
+    <failure message="&#10;Parameter &apos;keyword&apos; is required by @Test on method search but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'keyword' is required by @Test on method search but has not been marked @Optional or defined
+
+</failure>
+    <system-err><![CDATA[[Utils] [ERROR] [Error] org.testng.TestNGException: 
+Parameter &apos;keyword&apos; is required by @Test on method search but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+]]></system-err>
+  </testcase>
+  <testcase name="registrationConfirmationPage" classname="com.newtours.tests.BookFlightTest" time="0">
+    <skipped message="Method BookFlightTest.registrationConfirmationPage()[pri:0, instance:com.newtours.tests.BookFlightTest@4e04a765] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="flightsDetailPage" classname="com.newtours.tests.BookFlightTest" time="0">
+    <skipped message="Method BookFlightTest.flightsDetailPage()[pri:0, instance:com.newtours.tests.BookFlightTest@4e04a765] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="findFlightPage" classname="com.newtours.tests.BookFlightTest" time="0">
+    <skipped message="Method BookFlightTest.findFlightPage()[pri:0, instance:com.newtours.tests.BookFlightTest@4e04a765] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="flightConfirmationPage" classname="com.newtours.tests.BookFlightTest" time="0">
+    <skipped message="Method BookFlightTest.flightConfirmationPage()[pri:0, instance:com.newtours.tests.BookFlightTest@4e04a765] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="quitBrowser" classname="com.searchmodule.tests.SearchTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
