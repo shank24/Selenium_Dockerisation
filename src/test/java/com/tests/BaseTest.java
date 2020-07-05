@@ -22,12 +22,14 @@ public class BaseTest {
 
         //Default Value
         String host="localhost";
-        DesiredCapabilities dc = new DesiredCapabilities();
-        dc.setCapability("browserName","chrome");
+        DesiredCapabilities dc= new DesiredCapabilities();
+
 
         //Value set based on provided
         if(System.getProperty("BROWSER")!=null && System.getProperty("BROWSER").equalsIgnoreCase("firefox")){
             dc.setCapability("browserName","firefox");
+        } else{
+            dc.setCapability("browserName","chrome");
         }
 
         if(System.getProperty("HUB_HOST")!=null){
