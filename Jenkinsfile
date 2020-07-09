@@ -2,11 +2,10 @@ pipeline {
     agent none
     stages {
         stage('Build Jar') {
-            agent {
+            agent any {
                 docker {
                     image 'maven:3-alpine'
                     args '-v $HOME/.m2:/root/.m2'
-                    label 'docker'
                 }
             }
             steps {
